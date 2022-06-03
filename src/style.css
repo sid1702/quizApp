@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    color:white;
+    background-color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.centerDiv{ 
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    border: 10px solid white;
+    box-shadow: -2px -1px 61px -3px rgba(255,255,255,0.85);
+}
+
+button{
+    background-color: black;
+    border-radius: 5px;
+    padding:10px;
+}
+
+button:hover{
+    background-color:darkslategrey ;
+}
+
+select{
+    background-color: black;
+    margin: 10px;
+    padding:5px;
+}
+
+.homePage{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.options{
+    margin: 10px;
+}
+
+label{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.score{
+    padding:15px;
+}
